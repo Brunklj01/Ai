@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A construção da democracia em Portugal — Grupo IV</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grao" aria-hidden="true"></div>
+<nav class="barra" aria-label="Controlos da apresentação">
+  <span class="marca">GRUPO IV · 1926—1976</span>
+  <span id="contador">01 / 13</span>
+  <button type="button" id="b-ant" aria-label="Ecrã anterior">←</button>
+  <button type="button" id="b-seg" aria-label="Ecrã seguinte">→</button>
+  <button type="button" id="b-menu">Capítulos</button>
+  <button type="button" id="b-apoio">Texto de apoio</button>
+  <button type="button" id="b-ecra" aria-label="Ecrã inteiro">Ecrã inteiro</button>
+  <i id="prog"></i>
+</nav>
+<main id="palco"></main>
+<aside id="apoio" hidden aria-label="Texto de apoio à apresentação"><h3>Texto de apoio</h3><div id="apoio-texto"></div></aside>
+<dialog id="menu"><h3>Capítulos</h3><ol id="lista-cap"></ol><button type="button" id="fechar-menu">Fechar</button></dialog>
+<dialog id="janela"><div id="janela-conteudo"></div><button type="button" id="fechar-janela">Fechar</button></dialog>
+<script src="script.js"></script>
+</body>
+</html>
